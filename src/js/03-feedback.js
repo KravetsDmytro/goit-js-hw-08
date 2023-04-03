@@ -34,7 +34,7 @@ populateTetxtarea();
 
 function onFormSubmit(evt) {
   evt.preventDefault();
-  console.log('form otprav');
+  console.log(formData);
   evt.currentTarget.reset();
   formData = {};
   localStorage.removeItem(LOCALSTORAGE_KEY);
